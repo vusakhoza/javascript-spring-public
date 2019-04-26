@@ -1,7 +1,7 @@
 # javascript-spring-public
 Javascript Spring SDK Issues Repo
 
-The purpose of this repo is to track issue regarding the use of the Spring JS SDK. Find the docs on usage of the SDK below.
+The purpose of this repo is to track issues regarding the use of the Spring JS SDK. Find the docs on usage of the SDK below.
 
 # Documentation
 
