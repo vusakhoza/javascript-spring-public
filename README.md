@@ -100,12 +100,14 @@ The reponse is a json string with a number of key value pairs, the important one
 ### Load the SDK
 In order for you to use the platform you have to include the sdk in your project:
 
-`<script src="http://207.180.250.156:8500/checkout/spring-js/sdk.js" async defer></script>`
+`<script src="https://unpkg.com/@opexaorg/spring@1.0.0/sdk.js" async defer></script>`
 
+<!--
 ### Add an action button
 Add a DOM element that will initiate the chosen Spring action:
 
 `<input id="spring-action" type="button" value="Let's act"/>`
+-->
 
 ### Initiate SDK
 Now that we've obtained an access key and setup our DOM elements. The first step in using the sdk is to run the initialization method. The `init` method takes an object as an argument, the object need only have one value, the access key.
