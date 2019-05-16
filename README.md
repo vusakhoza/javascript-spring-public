@@ -1,7 +1,7 @@
 # javascript-spring-public
 Javascript Spring SDK Issues Repo
 
-The purpose of this repo is to track issues regarding the use of the Spring JS SDK. Find the docs on usage of the SDK below.
+The purpose of this repo is to track issues regarding the use of the Spring JS SDK. Find the full docs [here](https://spring.co.zw).
 
 # Documentation
 
@@ -35,7 +35,7 @@ The auth token is a 256 bit token used to authenticate requests to certain Sprin
 ```
 import requests
 
-url = "http://207.180.250.156:8500/api/get-token/"
+url = "https://spring.co.zw/api/get-token/"
 user = "test@test.com"
 pass = "testify"
 
@@ -71,7 +71,7 @@ The endpoint also expects json data with one key value pair:
 
 Below is a basic Python requests example:
 ```
-url = "http://207.180.250.156:8500/api/get-auth/"
+url = "https://spring.co.zw/api/get-auth/"
 
 payload = {
     "aak": "9ddcac12ad79b55e5413cde8c34e367a"
